@@ -1,0 +1,56 @@
+import golosinas.*
+
+describe "test de chocolatin" {
+
+	test "peso inicial" {
+	
+		chocolatin.pesoInicial(40)
+		}
+	}
+	
+	test "precio" {
+		assert.equals(20, chocolatin.precio())
+	}
+	
+	test "mordiscos" {
+		chocolatin.mordisco()
+		assert.equals(38, chocolatin.peso())
+		chocolatin.mordisco()
+		assert.equals(36, chocolatin.peso())
+	}
+	
+	test "gusto" {
+		assert.equals("chocolate", chocolatin.gusto())
+	}
+	
+	test "libre de gluten" {
+		assert.that(not chocolatin.libreGluten())	
+	}
+	
+describe "test de chocolatin version 2" {
+
+	test "peso inicial" {
+
+		chocolatin.pesoInicial(100)
+		}
+	}
+	
+	test "precio" {
+		assert.equals(50, chocolatin.precio())
+	}
+	
+	test "mordiscos" {
+		chocolatin.mordisco()
+		assert.equals(98, chocolatin.peso())
+		chocolatin.mordisco()
+		assert.equals(96, chocolatin.peso())
+	}
+	
+	test "gusto" {
+		assert.equals("chocolate", chocolatin.gusto())
+	}
+	
+	test "libre de gluten" {
+		assert.that(not chocolatin.libreGluten())	
+	}
+	

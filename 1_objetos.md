@@ -34,7 +34,8 @@ Pierde 2 gramos por mordisco.
 
 #### Golosina bañada
 Se arma a partir de una _golosina de base_. <br>
-El peso inicial es el de la golosina de base más 4 gramos que es lo que pesa el bañado. El precio es el de la golosina de base más 2 pesos. El gusto es el de la golosina de base. 
+El peso inicial es el de la golosina de base más 4 gramos que es lo que pesa el bañado. El precio es el 
+de la golosina de base más 2 pesos. El gusto es el de la golosina de base. 
 De la misma manera, es libre de gluten si lo es su golosina base.   
 Con cada mordisco se da un mordisco a la golosina de base. Además, en el primer mordisco pierde 2 gramos de
 bañado, y en el segundo los otros dos.
