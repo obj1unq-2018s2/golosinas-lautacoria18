@@ -96,4 +96,6 @@ object tuttifrutti {
 		           else if ( gusto == "chocolate" ) gusto = "naranja"
 		           else gusto = "frutilla" 
 	}
+	
+	}
 

@@ -6,10 +6,10 @@ describe "test de tuttifrutti" {
 	
 			assert.equals(5, tuttifrutti.peso())
 		}
-	
+	}
 	
 	test "precio" {
-		assert.equals(7, tuttifrutti.precio())
+		assert.equals(10, tuttifrutti.precio())
 	}
 	
 	test "gusto" {
@@ -25,6 +25,6 @@ describe "test de tuttifrutti" {
 	
 
 	test "libre de gluten" {
-		tuttifrutti.libreGluten(true)
+		tuttifrutti.libreGluten(false)
 	}
-	}
+	

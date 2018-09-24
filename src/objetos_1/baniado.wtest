@@ -5,8 +5,6 @@ describe "test de tuttibaniado" {
 
 		
 	
-	tuttifrutti.libreGluten(true)
-	golosinaBaniada.baniaA(tuttifrutti)
 	
 		
 		
@@ -29,10 +27,10 @@ describe "test de tuttibaniado" {
 		golosinaBaniada.baniaA(tuttifrutti)
 		bombon.mordisco()
 		assert.equals(7, golosinaBaniada.peso())
-		assert.equals("chocolate", golosinaBaneada.gusto())
+		assert.equals("chocolate", golosinaBaniada.gusto())
 		bombon.mordisco()
 		assert.equals(5, golosinaBaniada.peso())
-		assert.equals("naranja", golosinaBaneada.gusto())
+		assert.equals("naranja", golosinaBaniada.gusto())
 	}
 	
 	test "gusto" {

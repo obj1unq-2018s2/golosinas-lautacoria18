@@ -6,7 +6,7 @@ describe "test de chocolatin" {
 	
 		chocolatin.pesoInicial(40)
 		}
-	}
+	
 	
 	test "precio" {
 		assert.equals(20, chocolatin.precio())
